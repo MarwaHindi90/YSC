@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+    .navbar .navbar-brand {
+        margin-left: 0;
+        padding-top: .3125rem;
+    }
+    .navbar .navbar-brand img {
+        width: 150px;
+    }
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+    .navbar-nav:before {
+        content: " ";
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 72%;
+        transform: skew(0deg, 0deg);
+        background: #172a4f;
+        overflow: hidden;
+        z-index: 2;
+        margin: 0;
+    }
+    .slider .owl-carousel .owl-nav button.owl-prev,
+    .slider .owl-carousel .owl-nav button.owl-next {
+        padding: 0px 10px !important;
+        top: 45%;
+    }
+    .head-fonts {
+        font-size: 1.75rem
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        font-size: 14px;
+    }
+    .head-fonts {
+        font-size: 1.15rem
+    }
+}
