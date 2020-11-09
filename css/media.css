@@ -36,6 +36,19 @@
 }
 
 @media (max-width: 576px) {
+    .upper-bar {
+        text-align: center;
+    }
+    .upper-bar a {
+        margin: 5px;
+    }
+    .upper-bar .text {
+        font-size: 12px;
+    }
+    .upper-bar .icon .fas {
+        margin-right: 5px;
+        font-size: 18px;
+    }
     footer {
         font-size: 14px;
     }
