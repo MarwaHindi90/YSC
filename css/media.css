@@ -106,4 +106,7 @@
     .services .owl-carousel .owl-nav button.owl-next {
         right: 7%;
     }
+    .products .item-img:hover .img-caption {
+        top: 83%;
+    }
 }
