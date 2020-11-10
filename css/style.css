@@ -1,60 +1,5 @@
 /* ------------------------------------------ */
 
-
-/*             TABLE OF CONTENTS
-/* ------------------------------------------ */
-
-
-/*   01 - General & Basic Styles    */
-
-
-/*   02 - Navbar Styles   		    */
-
-
-/*   03 - Slider Styles   		    */
-
-
-/*   04 - About Styles   		    */
-
-
-/*   05 - Counter Styles   		    */
-
-
-/*   06 - Team Slider Styles        */
-
-
-/*   07 - Process Styles            */
-
-
-/*   08 - Latest Works Styles       */
-
-
-/*   09 - testimonial Style         */
-
-
-/*   10 - Partner Style             */
-
-
-/*   11 - Pricing-table Style       */
-
-
-/*   12 - Contact Style             */
-
-
-/*   13 - Subscribe Style           */
-
-
-/*   14 - Footer Style              */
-
-
-/*   15 - Section Loading           */
-
-
-/*   16 - Scroll Top                */
-
-
-/* ------------------------------------------ */
-
 :root {
     --main-color: #02a9de;
     --second-color: #182a50;
@@ -70,10 +15,9 @@
     box-sizing: border-box;
 }
 
-
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
     font-family: 'DinNextRegular';
@@ -201,7 +145,7 @@ h6 {
 
 .navbar .navbar-brand {
     padding-top: 0;
-    margin-left: 1rem;
+    margin-right: 0;
 }
 
 .navbar .navbar-brand img {
@@ -209,7 +153,7 @@ h6 {
 }
 
 .navbar .navbar-nav {
-    margin-left: 14%;
+    margin-left: auto;
 }
 
 .navbar-nav:before {
@@ -218,7 +162,7 @@ h6 {
     top: 13px;
     bottom: 0;
     right: 0;
-    width: 68%;
+    width: 70%;
     height: 75%;
     transform: skew(-30deg);
     background: var(--second-color);
@@ -385,11 +329,12 @@ h2::after {
 .products ul li {
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 
 .products ul li a {
     font-weight: 600;
+    font-size: 14px;
 }
 
 .products ul .active,
@@ -488,7 +433,7 @@ h2::after {
 
 .upper-footer ul li {
     color: #fff;
-    padding: 7px 0;
+    padding: 5px 0;
 }
 
 .upper-footer ul a {
@@ -512,7 +457,6 @@ h2::after {
 
 footer {
     padding: 10px;
-    font-size: 15px;
     background-color: var(--third-color);
 }
 
