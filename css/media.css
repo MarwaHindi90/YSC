@@ -60,7 +60,7 @@
     }
     .services .owl-carousel .owl-nav button.owl-prev,
     .services .owl-carousel .owl-nav button.owl-next {
-        padding: 0 9px !important;
+        padding: 0 10px !important;
     }
     .services .owl-carousel .owl-nav button.owl-prev {
         right: 14%;
@@ -99,5 +99,11 @@
     .products ul li a {
         font-weight: 600;
         font-size: 13px;
+    }
+    .services .owl-carousel .owl-nav button.owl-prev {
+        right: 16%;
+    }
+    .services .owl-carousel .owl-nav button.owl-next {
+        right: 7%;
     }
 }
