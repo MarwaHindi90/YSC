@@ -85,6 +85,9 @@
     .upper-footer img {
         width: 120px;
     }
+    .header .info {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -130,5 +133,8 @@
     .about .media .icon i {
         font-size: 15px;
         padding-top: 13px;
+    }
+    .header .info {
+        font-size: 22px;
     }
 }
