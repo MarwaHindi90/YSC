@@ -1,11 +1,14 @@
 $(document).ready(function() {
     // navbar background color change on scroll
 
-    $(document).scroll(function() {
+    $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
             $('nav').addClass('scroll');
+            // add padding top to show content behind navbar
+            $('body').css('padding-top', $('.navbar').outerHeight() + '50px');
         } else {
             $('nav').removeClass('scroll');
+            $('body').css('padding-top', '0');
         }
 
     });
@@ -82,8 +85,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     "use strict";
 
-    $('ul.navbar-nav > li').click(function(e) {
-        e.preventDefault();
+    $('ul.navbar-nav > li').click(function() {
         $('ul.navbar-nav > li').removeClass('active');
         $(this).addClass('active');
     });
